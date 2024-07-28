@@ -1,0 +1,38 @@
+*{
+    background-color: rgb(247, 247, 247);
+    font-family: Arial, sans-serif;
+}
+#container{
+    height:80vh;
+    width: 100vh;
+    background-color:white;
+    border-radius:5px;
+    border: 1px solid gainsboro;
+    box-shadow: 3px 3px 1px #c7cacc;
+    position: relative;
+    top: 9vh;
+    left: 28vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#heading,#heading h2{
+    background-color:white;
+}
+#guess-input{
+    border: 1px solid gainsboro;
+    height:30px;
+    width:300px;
+    background-color: white;
+    box-shadow: 1px 1px 1px #c7cacc;
+    
+}
+.emoji-dec{
+   font-size: 70px;
+   background-color: white;
+}
+#score,#status,#timer{
+    background-color: white;
+    font-size: 17px;
+}
